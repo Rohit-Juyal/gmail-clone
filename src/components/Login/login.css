@@ -1,0 +1,20 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container > img {
+    object-fit: contain;
+    height: 60px;
+}
+
+.login__button {
+    margin-top: 30px !important;
+}
